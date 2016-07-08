@@ -117,7 +117,10 @@ PRODUCT_PROPERTY_OVERRIDES += \
     debug.sf.disable_hwc=0 \
     debug.sf.recomputecrop=0 \
     persist.hwc.ptor.enable=true \
-    debug.sf.gpu_comp_tiling=1
+    debug.sf.gpu_comp_tiling=1 \
+    vendor.display.disable_partial_split=1 \
+    debug.hwui.use_buffer_age=false \
+    vendor.display.perf_hint_window=50
 
 #Set speaker protection cal tx path sampling rate to 48k
 PRODUCT_PROPERTY_OVERRIDES += \
@@ -153,9 +156,10 @@ PRODUCT_PROPERTY_OVERRIDES += \
 PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
     ro.surface_flinger.force_hwc_copy_for_virtual_displays=true \
     ro.surface_flinger.max_virtual_display_dimension=4096 \
+    ro.surface_flinger.max_frame_buffer_acquired_buffers=3 \
     ro.surface_flinger.protected_contents=true \
-    ro.surface_flinger.vsync_event_phase_offset_ns=2000000 \
-    ro.surface_flinger.vsync_sf_event_phase_offset_ns=6000000
+    ro.surface_flinger.vsync_event_phase_offset_ns=4000000 \
+    ro.surface_flinger.vsync_sf_event_phase_offset_ns=8000000 
 
 PRODUCT_PROPERTY_OVERRIDES += \
     debug.sf.early_phase_offset_ns=1500000 \
