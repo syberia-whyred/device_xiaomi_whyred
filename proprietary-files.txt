@@ -943,8 +943,10 @@ vendor/lib64/vendor.qti.hardware.fingerprint@1.0.so
 # FM - from jasmine_sprout 9 PKQ1.180904.001 V10.0.17.0.PDIMIXM release-keys
 lib/libfm-hci.so|ad7e34a7df8e51c7308adc177b0ed328e7db0dce
 lib/fm_helium.so|fb2a591a61122bbdf818ba9e6c931aa7c3d8a953
+-lib/libqcomfm_jni.so
 lib64/libfm-hci.so|91bd4fad13d3d675f8e47f06b5622af6d33b1c24
 lib64/fm_helium.so|e41e3a18f5a0dc666adad471e7332c707b4d2044
+-lib64/libqcomfm_jni.so
 vendor/bin/fm_qsoc_patches|3f00e388a0845de392af0b36d3ac8b05efa94f62
 -lib/vendor.qti.hardware.fm@1.0.so|0b9e8bded24287a9e1440426a1db8d5b31732530
 -lib64/vendor.qti.hardware.fm@1.0.so|34aa3eb527288565f4bd70572fbdd9b9e4731767
