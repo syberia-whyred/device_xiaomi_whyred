@@ -1125,6 +1125,10 @@ vendor/lib64/libqti-iopd-client.so|64dcd6acbc758ca4ba7eea3ae351c005e92e95d5
 vendor/lib64/vendor.qti.hardware.iop@1.0.so|8ccdc1463dcb554297b0c96d768126f0ca42b83a
 vendor/lib64/vendor.qti.hardware.iop@2.0.so|d5bafc1daeb1b417bbad1160f92e330610f09b8a
 
+# Touch 
+system/lib/vendor.qti.hardware.improvetouch.touchcompanion@1.0.so|773e97cc75c0163528148768fe939f84f8287467
+system/lib64/vendor.qti.hardware.improvetouch.touchcompanion@1.0.so|3a6561d53c5b8b6cdea6030db66808768a963ebf
+
 # Keystore - from jasmine_sprout 9 PKQ1.180904.001 V10.0.17.0.PDIMIXM release-keys
 vendor/lib/hw/keystore.sdm660.so|990bc5ca05914f3df85320a31b26fae325e174e3
 vendor/lib64/hw/keystore.sdm660.so|ffd01591bd8a864cb2dbc6fd2c01fbd36ae54051
