@@ -1125,14 +1125,9 @@ vendor/lib/hw/vulkan.sdm660.so|87d87b2520d3a8adec7a24f5999a27b291edaeba
 vendor/lib64/hw/vulkan.sdm660.so|ad3a5d92c6c13ba0c937dd1b83f371e804a57c4e
 
 # IOP - from jasmine-user 10 QKQ1.190910.002 V11.0.4.0.QDIMIXM release-keys
-lib/libqti-iopd-client_system.so|d91db26d17012f654a222bf325793bdce29e0f1b
-lib/libqti-util_system.so|bd0889d0cab15adf5515d001085588700c98c9aa
-lib64/libqti-iopd-client_system.so|1f65e993f79758b2833df88413029d4af059a2eb
-lib64/libqti-util_system.so|26ba8e8a49e312f481985667a983d56367f73bfb
 product/lib/vendor.qti.hardware.iop@1.0.so|8525c29dde11430973e1f26339c915a52de870e9
 product/lib/vendor.qti.hardware.iop@2.0.so|cecd7cef970d48b0709da4eaa9e6966a083a3ab0
 product/lib64/vendor.qti.hardware.iop@1.0.so|a9d2a6bec613954b422a4f50fee70ec0754be65d
-product/lib64/vendor.qti.hardware.iop@2.0.so|0b657aa0eaedb463ef96df94b31010449c5a34a9
 vendor/lib/hw/vendor.qti.hardware.iop@2.0-impl.so|f78fd7791961c0ceea03dfae8154207820c61be9
 vendor/lib/libqti-iopd-client.so|ea48eb1e1d1f97ca9d2f53ffe635f9ab1925679c
 vendor/lib/vendor.qti.hardware.iop@1.0.so|8094748d325b8b71ba48ec07f3d8575b42e21754
@@ -1209,14 +1204,8 @@ vendor/lib64/vendor.xiaomi.hardware.mlipay@1.0.so
 vendor/lib64/vendor.xiaomi.hardware.mlipay@1.1.so
 
 # Perf - from jasmine-user 10 QKQ1.190910.002 V11.0.4.0.QDIMIXM release-keys
-lib/libqti-perfd-client_system.so|1e7a094e11ca381e0b73e48a6971ce9fcb4e6470
-lib/libqti_performance.so|246ff5d8fd2df951ef07c9fea0f83c67a77e112b
-lib64/libqti-perfd-client_system.so|c5825782db277dcb7f581290325a4f68f0d26981
-lib64/libqti_performance.so|84abd6c99ae4bc2eb1c13648d66cebb90bcf4796
 product/lib/vendor.qti.hardware.perf@1.0.so|d04786a723d766b9d22c88e8aec5f8036d1ac53e
-product/lib/vendor.qti.hardware.perf@2.0.so|0a08551185ac8626b832068ecb77997800050233
 product/lib64/vendor.qti.hardware.perf@1.0.so|9b411738cf2ca8319bacf1f859cc3679f576215a
-product/lib64/vendor.qti.hardware.perf@2.0.so|3131f461ecb897f68d02df0bf1027ca0a7d07c1d
 vendor/bin/energy-awareness|6515fada09432a437d2ed591ce141bb70fb10a9e
 vendor/bin/hw/vendor.qti.hardware.perf@2.0-service|57b1e050c9300a72baff8a19872b5a32ae9122e9
 vendor/bin/msm_irqbalance|e917104fbd26c844d27ffb2b7ec4f665fdfb8b78
