@@ -169,6 +169,7 @@ PRODUCT_PACKAGES += \
 
 # Display
 PRODUCT_PACKAGES += \
+    android.frameworks.displayservice@1.0 \
     android.hardware.graphics.allocator@2.0-impl:64 \
     android.hardware.graphics.allocator@2.0-service \
     android.hardware.graphics.composer@2.1-impl:64 \
@@ -213,8 +214,8 @@ PRODUCT_PACKAGES += \
     qcom.fmradio \
     qcom.fmradio.xml
 
-#PRODUCT_BOOT_JARS += \
-#    qcom.fmradio
+PRODUCT_BOOT_JARS += \
+    qcom.fmradio
 
 # For android_filesystem_config.h
 PRODUCT_PACKAGES += \
